@@ -5,6 +5,9 @@ package com.sda.algorytmy;
  */
 public class App {
     public static void main(String[] args) {
+
+        Erastotenes.Sito_Erastotenesa(30);
+
         int k = 2;
         while (k < 200) {
             int licznik = 0;
@@ -18,7 +21,7 @@ public class App {
             if (licznik == 0) {
                 System.out.println(k + " jest liczba pierwsza ");
             } else {
-                System.out.println(k + " nie jest liczba pierwsza ");
+               // System.out.println(k + " nie jest liczba pierwsza ");
             }
             k++;
         }
